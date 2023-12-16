@@ -14,7 +14,7 @@ import { Skeleton } from "./ui/skeleton";
 
 type CoverProps = {
   url?: string;
-  preview?: string;
+  preview?: boolean;
 };
 
 export const Cover = ({ url, preview }: CoverProps) => {
