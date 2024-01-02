@@ -52,7 +52,7 @@ const DocumentIdPage = ({ params: { documentId } }: DocumentIdProps) => {
     return <div>Not Found</div>;
   }
   return (
-    <div className="pt-14">
+    <div className="py-14">
       <Cover url={document.coverImage} />
       <div className="md:max-w-3xl lg:max-w-4xl mx-auto ">
         <ToolBar initialData={document} />
